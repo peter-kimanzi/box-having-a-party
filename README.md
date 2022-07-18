@@ -9,3 +9,5 @@ box beautiful animation
 * JavaScript
 
 ## View live project
+
+https://peter-kimanzi.github.io/box-having-a-party/
