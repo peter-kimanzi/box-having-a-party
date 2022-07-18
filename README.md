@@ -5,3 +5,4 @@ box beautiful animation
 ## Technologies used
 
 * HTML
+* CSS
