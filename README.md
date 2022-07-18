@@ -6,3 +6,5 @@ box beautiful animation
 
 * HTML
 * CSS
+* JavaScript
+
