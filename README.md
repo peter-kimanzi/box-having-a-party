@@ -4,4 +4,4 @@ box beautiful animation
 
 ## Technologies used
 
-# HTML
+* HTML
