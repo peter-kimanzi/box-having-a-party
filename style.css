@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background: repeating-radial-gradient(
+    circle at center,
+    #444 0 10%,
+    #111 10% 20%
+  );
+
+  touch-action: none;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #444;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  justify-self: end;
+}
+
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  color: #333;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+  box-shadow: 0 1px 1px #0001, 0 2px 0 0 #fffb inset;
+}
+
+#dialog {
+  user-select: none;
+  position: fixed;
+  inset: 0;
+  padding: 1em 2em 3em 2em;
+  border-radius: 4px;
+  font-family: system-ui;
+  line-height: 1.6;
+}
+
+.x {
+  filter: grayscale(1);
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  cursor: pointer;
+}
+
+.x:hover,
+.x:focus-visible {
+  outline: none;
+  box-shadow: 0 1px 1px 1px #1111;
+}
